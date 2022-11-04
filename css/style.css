@@ -50,3 +50,9 @@ ul {
     border : 1px solid blueviolet;
     padding: .9rem;
 }
+
+.footer {
+    padding         : 1.2rem;
+    background-color: #333;
+    color           : white
+}
