@@ -12,10 +12,11 @@ ul {
 }
 
 .container {
-    width     : 70%;
-    text-align: center;
-    border    : 1px solid #ddd;
-    margin    : 0 auto;
+    width    : 70%;
+    border   : 1px solid #ddd;
+    margin   : 0 auto;
+    display  : flex;
+    flex-wrap: wrap;
 }
 
 .container h1 {
@@ -27,4 +28,25 @@ ul {
     padding         : .5rem;
     text-align      : center;
     color           : white;
+    width           : 100%;
+}
+
+.primary-content {
+    width: 70%;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.header-sidebar {
+    background-color: blueviolet;
+    color           : white;
+    font-size       : 1.2rem;
+    padding         : .9rem;
+}
+
+.body-sidebar {
+    border : 1px solid blueviolet;
+    padding: .9rem;
 }
